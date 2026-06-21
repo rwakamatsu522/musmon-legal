@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,40 +8,68 @@
 <style>
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", sans-serif; color: #1d1d1f; background: #fff; margin: 0; line-height: 1.7; }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 22px 72px; }
-  h1 { font-size: 24px; font-weight: 800; margin: 0 0 4px; }
-  h2 { font-size: 14px; font-weight: 800; color: #6e6e73; margin: 28px 0 10px; }
-  p.lead { color: #6e6e73; margin: 0 0 8px; }
-  .grid { display: flex; flex-wrap: wrap; gap: 8px; }
-  a.pill { display: inline-block; padding: 8px 14px; border: 1px solid #e3e3e8; border-radius: 999px; text-decoration: none; color: #1d1d1f; font-weight: 700; font-size: 14px; }
-  a.pill:hover { border-color: #b8860b; }
-  footer { color: #8a8a8e; font-size: 12px; margin-top: 40px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", sans-serif; color: #1d1d1f; background: #fff; margin: 0; line-height: 1.6; }
+  .wrap { max-width: 560px; margin: 0 auto; padding: 56px 22px 72px; }
+  .brand { font-size: 26px; font-weight: 800; letter-spacing: .04em; margin: 0 0 28px; text-align: center; }
+  .block { padding: 16px 0; border-top: 1px solid #ececf0; }
+  .block:first-of-type { border-top: none; }
+  .lname { font-size: 13px; font-weight: 700; color: #8a8a8e; margin: 0 0 8px; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px; }
+  .links a { flex: 1 1 0; min-width: 140px; text-align: center; padding: 12px 14px; border: 1px solid #e3e3e8; border-radius: 12px; text-decoration: none; color: #1d1d1f; font-weight: 700; font-size: 14px; }
+  .links a:hover { border-color: #b8860b; }
+  footer { color: #b0b0b5; font-size: 12px; margin-top: 32px; text-align: center; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>MUSMON</h1>
-  <p class="lead">Terms of Use &amp; Privacy Policy / 利用規約・プライバシーポリシー</p>
+  <div class="brand">MUSMON</div>
 
-  <h2>利用規約 / Terms of Use</h2>
-  <div class="grid">
-    <a class="pill" href="terms-ja.html">日本語</a>
-    <a class="pill" href="terms-en.html">English</a>
-    <a class="pill" href="terms-zh.html">简体中文</a>
-    <a class="pill" href="terms-ko.html">한국어</a>
-    <a class="pill" href="terms-es.html">Español</a>
-    <a class="pill" href="terms-pt.html">Português</a>
+  <div class="block">
+    <div class="lname">日本語</div>
+    <div class="links">
+      <a href="terms-ja.html">利用規約</a>
+      <a href="privacy-ja.html">プライバシーポリシー</a>
+    </div>
   </div>
 
-  <h2>プライバシーポリシー / Privacy Policy</h2>
-  <div class="grid">
-    <a class="pill" href="privacy-ja.html">日本語</a>
-    <a class="pill" href="privacy-en.html">English</a>
-    <a class="pill" href="privacy-zh.html">简体中文</a>
-    <a class="pill" href="privacy-ko.html">한국어</a>
-    <a class="pill" href="privacy-es.html">Español</a>
-    <a class="pill" href="privacy-pt.html">Português</a>
+  <div class="block">
+    <div class="lname">English</div>
+    <div class="links">
+      <a href="terms-en.html">Terms of Use</a>
+      <a href="privacy-en.html">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="lname">简体中文</div>
+    <div class="links">
+      <a href="terms-zh.html">使用条款</a>
+      <a href="privacy-zh.html">隐私政策</a>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="lname">한국어</div>
+    <div class="links">
+      <a href="terms-ko.html">이용약관</a>
+      <a href="privacy-ko.html">개인정보처리방침</a>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="lname">Español</div>
+    <div class="links">
+      <a href="terms-es.html">Términos de uso</a>
+      <a href="privacy-es.html">Política de privacidad</a>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="lname">Português</div>
+    <div class="links">
+      <a href="terms-pt.html">Termos de Uso</a>
+      <a href="privacy-pt.html">Política de Privacidade</a>
+    </div>
   </div>
 
   <footer>© 2026 rei wakamatsu</footer>
